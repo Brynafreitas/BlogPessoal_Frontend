@@ -1,11 +1,56 @@
-#img-bg{
-    background-image: url("https://cdn.pixabay.com/photo/2017/05/13/17/41/textile-2310247_960_720.png");
+* {
+  overflow: hidden;
+}
 
-    min-height: 100vh;
+.content {
+  width: 100%;
+  position: relative;
+  background-color: #FCD8D4;
+  min-height: 100vh;
+  color: #DF5E5E;
 
-    background-color: #6b8e23;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+}
+
+img.wave-1 {
+  position: absolute;
+  min-width: 100vw;
+  z-index: 0;
+
+
+
+}
+
+img.wave-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+
+img.menina {
+  width: 400px;
+  position: absolute;
+  bottom: 8%;
+  right: 17%;
+
+}
+
+
+.login {
+  width: 700px;
+  height: 100vh;
+}
+
+
+.botao {
+  background-color: #DF5E5E;
+  border:none;
+}
+
+.botao:hover{
+  background-color: #99413e;
 
 }

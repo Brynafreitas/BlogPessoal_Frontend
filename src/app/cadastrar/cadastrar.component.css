@@ -1,11 +1,47 @@
-#img-bg{
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/53/abstract-1867656_960_720.jpg");
+*{
+  overflow: hidden;
+}
 
-    min-height: 100vh;
+.bg-color{
+  background-color: #B6C9F0;
+  min-height: 100vh;
+}
 
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.bg-color2{
+  background-color:#FCD8D4;
+  color: #DF5E5E;
+  min-height: 100vh;
+}
+
+.content{
+  position: relative;
+
+}
+
+.mulheres{
+  position:absolute;
+ top: 39%;
+ width:500px;
+ left: 10%;
+}
+
+.botao1{
+  background-color: #DF5E5E;
+  border:none;
+
+}
+
+.botao1:hover{
+  background-color: #99413e;
+}
+
+.botao2{
+  background-color: #8293b6;
+  border:none;
+}
+
+.botao2:hover{
+  background-color: #4b576d;
 
 }

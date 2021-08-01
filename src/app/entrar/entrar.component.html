@@ -1,8 +1,15 @@
-<div class="container-fluid">
+<div class="container-fluid content m-0 p-0 ">
 
-  <div class="row d-flex align-items-center">
+  <img src="../../assets/img/Vector (7).png" class="wave-1">
 
-    <div class="col-md-6">
+  <img src="../../assets/img/Vector (4).png" class="wave-2" >
+
+  <img src="../../assets/img/Frame (1).png" class="menina" alt="menina andando de skate">
+
+
+  <div class="row d-flex align-items-center login">
+
+    <div class="col-md-12 mt-5">
 
       <div class="row d-flex justify-content-center">
         <div class="col-md-6">
@@ -10,16 +17,18 @@
 
           <div class="form-group">
             <label for="usuario">Usuário</label>
-            <input [(ngModel)]='userLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+            <input [(ngModel)]='userLogin.usuario' class="form-control" type="text" name="usuario" id="usuario"
+              placeholder="Seu usuário">
           </div>
 
           <div class="form-group">
             <label for="senha">Senha</label>
-            <input [(ngModel)]='userLogin.senha' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+            <input [(ngModel)]='userLogin.senha' class="form-control" type="password" name="senha" id="senha"
+              placeholder="Sua senha">
           </div>
 
           <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-success"(click)='entrar()' >Entrar</button>
+            <button type="submit" class="btn botao" (click)='entrar()'>Entrar</button>
           </div>
 
           <hr class="mt-5 mb-5">
@@ -32,14 +41,14 @@
 
       </div>
 
+
+
+
     </div>
 
-    <div class="col-md-6" id="img-bg">
 
-    </div>
+
 
   </div>
-
-
 
 </div>
