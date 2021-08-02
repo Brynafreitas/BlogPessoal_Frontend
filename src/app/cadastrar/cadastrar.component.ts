@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment.prod';
 import { User } from '../model/User';
 import { AuthService } from '../service/auth.service';
 
@@ -57,6 +58,7 @@ export class CadastrarComponent implements OnInit {
     }
 
   }
+
 
 
 
