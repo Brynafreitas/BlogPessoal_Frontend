@@ -5,3 +5,18 @@
 .fs-18{
   font-size:18pt;
 }
+
+.bg-azul{
+  background-color: #B6C9F0 ;
+}
+
+.bg-rosa{
+  background-color: #FCD8D4;
+
+}
+
+.content{
+  background-color:#FCD8D4;
+  min-height: 100vh;
+}
+
