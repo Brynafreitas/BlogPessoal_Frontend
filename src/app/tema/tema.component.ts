@@ -29,6 +29,11 @@ export class TemaComponent implements OnInit {
 
     }
 
+    if(environment.tipo != 'adm'){
+      this.alertaService.showAlertInfo('É necessário ser adm para cadastrar temas')
+      this.router.navigate(['/inicio'])
+    }
+
     this.findAllTemas()
   }
 
