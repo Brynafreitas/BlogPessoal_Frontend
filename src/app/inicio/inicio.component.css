@@ -19,8 +19,18 @@
 
 }
 
+
 .content{
   background-color:#FCD8D4;
   min-height: 100vh;
 }
 
+.card-body{
+  background: #B6C9F0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background: #DF5E5E;
+  color: white !important;
+
+}

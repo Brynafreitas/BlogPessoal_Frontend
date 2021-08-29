@@ -47,10 +47,13 @@ img.menina {
 
 .botao {
   background-color: #DF5E5E;
-  border:none;
+  border: none;
 }
 
-.botao:hover{
+.botao:hover {
   background-color: #99413e;
 
 }
+
+
+
